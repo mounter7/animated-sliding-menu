@@ -1,0 +1,34 @@
+section {
+    padding: 4rem 0;
+}
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    position: relative;
+    padding: 0.5rem 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+nav a {
+    text-decoration: none;
+    position: relative;
+    padding: 0 1rem;
+    color: #000;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #000;
+}
+nav #marker {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color: #ff9d1e;
+    bottom: 0px;
+    transition: 0.4s;
+    border-radius: 5px;
+    left: 0;
+}
